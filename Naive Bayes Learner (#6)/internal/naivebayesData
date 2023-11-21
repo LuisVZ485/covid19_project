@@ -1,0 +1,2133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+    <entry key="ClassColumnName" type="xstring" value="Country"/>
+    <config key="ClassColumnType">
+        <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        <entry key="is_null" type="xboolean" value="false"/>
+    </config>
+    <entry key="skipMissingVals" type="xboolean" value="false"/>
+    <entry key="Threshold" type="xdouble" value="1.0E-4"/>
+    <config key="SkippedAttributes">
+        <entry key="SkippedAttributesCounter" type="xint" value="0"/>
+    </config>
+    <config key="AttributeModelSection">
+        <entry key="AttributeModelCounter" type="xint" value="27"/>
+        <config key="AttributeModelData_0">
+            <entry key="attributeName" type="xstring" value="Fever"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.31307168927139134"/>
+                    <entry key="sd" type="xdouble" value="0.463753703412609"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.31343081505551035"/>
+                    <entry key="sd" type="xdouble" value="0.46389832007838994"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.3117392480389524"/>
+                    <entry key="sd" type="xdouble" value="0.46321438051898006"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.31365396739620127"/>
+                    <entry key="sd" type="xdouble" value="0.46398798586643647"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.31245480838756307"/>
+                    <entry key="sd" type="xdouble" value="0.463504595350842"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.3124019541929991"/>
+                    <entry key="sd" type="xdouble" value="0.4634831188851154"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.31088362068965547"/>
+                    <entry key="sd" type="xdouble" value="0.462865654954664"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.3139334602483943"/>
+                    <entry key="sd" type="xdouble" value="0.4641002108172293"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.3120426416117064"/>
+                    <entry key="sd" type="xdouble" value="0.4633375970701685"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.3107191316146522"/>
+                    <entry key="sd" type="xdouble" value="0.46279848745765717"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_1">
+            <entry key="attributeName" type="xstring" value="Tiredness"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.49952687784436656"/>
+                    <entry key="sd" type="xdouble" value="0.5000110413442628"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.5008123476848101"/>
+                    <entry key="sd" type="xdouble" value="0.5000106230645508"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.49729510413848865"/>
+                    <entry key="sd" type="xdouble" value="0.5000039541004235"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.5003152301179884"/>
+                    <entry key="sd" type="xdouble" value="0.5000111592264815"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.49814714389009396"/>
+                    <entry key="sd" type="xdouble" value="0.5000078651209255"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.49921563354398846"/>
+                    <entry key="sd" type="xdouble" value="0.5000105903668668"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.49923670977011664"/>
+                    <entry key="sd" type="xdouble" value="0.500010642608933"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.5006799020940973"/>
+                    <entry key="sd" type="xdouble" value="0.500010869809257"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.5011744511699376"/>
+                    <entry key="sd" type="xdouble" value="0.5000099138136984"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.49828132066938186"/>
+                    <entry key="sd" type="xdouble" value="0.5000083535502573"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_2">
+            <entry key="attributeName" type="xstring" value="Dry-Cough"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.563150542964001"/>
+                    <entry key="sd" type="xdouble" value="0.4960071517026675"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.5616030327646886"/>
+                    <entry key="sd" type="xdouble" value="0.4962017515037937"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.5630691551708568"/>
+                    <entry key="sd" type="xdouble" value="0.4960175130412087"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.5594884265513795"/>
+                    <entry key="sd" type="xdouble" value="0.49645969268326207"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.560827910339838"/>
+                    <entry key="sd" type="xdouble" value="0.4962973871775893"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.5614719196808733"/>
+                    <entry key="sd" type="xdouble" value="0.4962179354389206"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.5601652298850587"/>
+                    <entry key="sd" type="xdouble" value="0.49637808970230496"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.560511286374763"/>
+                    <entry key="sd" type="xdouble" value="0.4963361264905273"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.5631945071822184"/>
+                    <entry key="sd" type="xdouble" value="0.49600157980639775"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.5614654002713722"/>
+                    <entry key="sd" type="xdouble" value="0.496218844161862"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_3">
+            <entry key="attributeName" type="xstring" value="Difficulty-in-Breathing"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.49925652232685963"/>
+                    <entry key="sd" type="xdouble" value="0.5000107124221241"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.5002256521346686"/>
+                    <entry key="sd" type="xdouble" value="0.5000112320686022"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.5024794878730489"/>
+                    <entry key="sd" type="xdouble" value="0.5000051227440097"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.4986039809060639"/>
+                    <entry key="sd" type="xdouble" value="0.5000093096817642"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.5028922631959483"/>
+                    <entry key="sd" type="xdouble" value="0.5000029328406539"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.501904889964588"/>
+                    <entry key="sd" type="xdouble" value="0.500007576911505"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.49914691091953933"/>
+                    <entry key="sd" type="xdouble" value="0.5000104974564812"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.4983682349741622"/>
+                    <entry key="sd" type="xdouble" value="0.5000086693622698"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.5004968831872788"/>
+                    <entry key="sd" type="xdouble" value="0.5000110462837695"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.5017639077340555"/>
+                    <entry key="sd" type="xdouble" value="0.5000081960338857"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_4">
+            <entry key="attributeName" type="xstring" value="Sore-Throat"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.3136574595593213"/>
+                    <entry key="sd" type="xdouble" value="0.4639893945507459"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.3136564671901777"/>
+                    <entry key="sd" type="xdouble" value="0.46398901249942337"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.3146695518889206"/>
+                    <entry key="sd" type="xdouble" value="0.46439460311908026"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.3126182112942428"/>
+                    <entry key="sd" type="xdouble" value="0.463570644804438"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.3137201735357923"/>
+                    <entry key="sd" type="xdouble" value="0.4640146080011837"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.3141051499260467"/>
+                    <entry key="sd" type="xdouble" value="0.4641688933043138"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.31407147988505724"/>
+                    <entry key="sd" type="xdouble" value="0.46415542499432266"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.30971806726498"/>
+                    <entry key="sd" type="xdouble" value="0.46238779942607083"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.3131267503839529"/>
+                    <entry key="sd" type="xdouble" value="0.46377592042437016"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.31374943464495686"/>
+                    <entry key="sd" type="xdouble" value="0.4640263629426744"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_5">
+            <entry key="attributeName" type="xstring" value="None_Sympton"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.06290271707295073"/>
+                    <entry key="sd" type="xdouble" value="0.24279337190012715"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.061061467641484055"/>
+                    <entry key="sd" type="xdouble" value="0.2394484336739527"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.06216752321702287"/>
+                    <entry key="sd" type="xdouble" value="0.24146500941637622"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.06300099072322796"/>
+                    <entry key="sd" type="xdouble" value="0.24297021295915588"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.06277114967462066"/>
+                    <entry key="sd" type="xdouble" value="0.24255636711494444"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.06274931648065965"/>
+                    <entry key="sd" type="xdouble" value="0.24251695998833683"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.06146731321839087"/>
+                    <entry key="sd" type="xdouble" value="0.24019090937639992"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.06404677726407411"/>
+                    <entry key="sd" type="xdouble" value="0.24484179548250612"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.06296865118800256"/>
+                    <entry key="sd" type="xdouble" value="0.24291205309601197"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.06395296246042527"/>
+                    <entry key="sd" type="xdouble" value="0.24467465884819442"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_6">
+            <entry key="attributeName" type="xstring" value="Pains"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.36367323029784043"/>
+                    <entry key="sd" type="xdouble" value="0.4810669804923162"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.3660980232872994"/>
+                    <entry key="sd" type="xdouble" value="0.4817475838393628"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.36727977639527615"/>
+                    <entry key="sd" type="xdouble" value="0.4820744953024685"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.3658921012338993"/>
+                    <entry key="sd" type="xdouble" value="0.4816902742059044"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.36437997107736975"/>
+                    <entry key="sd" type="xdouble" value="0.4812667398971408"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.36139124198825856"/>
+                    <entry key="sd" type="xdouble" value="0.4804143594688804"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.36296695402298856"/>
+                    <entry key="sd" type="xdouble" value="0.4808662251695689"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.3627051037983873"/>
+                    <entry key="sd" type="xdouble" value="0.4807916276810935"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.36286024031077846"/>
+                    <entry key="sd" type="xdouble" value="0.4808358660030928"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.3633197648122989"/>
+                    <entry key="sd" type="xdouble" value="0.4809667098139812"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_7">
+            <entry key="attributeName" type="xstring" value="Nasal-Congestion"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.548416167259944"/>
+                    <entry key="sd" type="xdouble" value="0.49766156616660545"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.5474772091344018"/>
+                    <entry key="sd" type="xdouble" value="0.49775204268423406"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.5447660265079792"/>
+                    <entry key="sd" type="xdouble" value="0.4980031962053616"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.5423759344321344"/>
+                    <entry key="sd" type="xdouble" value="0.4982122620293992"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.5460050614605902"/>
+                    <entry key="sd" type="xdouble" value="0.49789028619053316"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.545112276455561"/>
+                    <entry key="sd" type="xdouble" value="0.49797188377494433"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.5455729166666649"/>
+                    <entry key="sd" type="xdouble" value="0.4979299562904805"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.5466866104614263"/>
+                    <entry key="sd" type="xdouble" value="0.49782687133004716"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.5475201011834849"/>
+                    <entry key="sd" type="xdouble" value="0.4977479595989828"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.544957033016729"/>
+                    <entry key="sd" type="xdouble" value="0.4979860252836244"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_8">
+            <entry key="attributeName" type="xstring" value="Runny-Nose"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.545712612084892"/>
+                    <entry key="sd" type="xdouble" value="0.49791719015838637"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.5448145139453023"/>
+                    <entry key="sd" type="xdouble" value="0.49799884720190707"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.5444955369218254"/>
+                    <entry key="sd" type="xdouble" value="0.4980274378411481"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.5427361974241188"/>
+                    <entry key="sd" type="xdouble" value="0.4981814869144368"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.5467733188720196"/>
+                    <entry key="sd" type="xdouble" value="0.49781869810532514"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.5443951414100637"/>
+                    <entry key="sd" type="xdouble" value="0.49803633282491155"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.5438218390804525"/>
+                    <entry key="sd" type="xdouble" value="0.49808712646814823"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.5462786692049703"/>
+                    <entry key="sd" type="xdouble" value="0.4978649615210207"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.5485590387568903"/>
+                    <entry key="sd" type="xdouble" value="0.4976476731054259"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.5463591135232914"/>
+                    <entry key="sd" type="xdouble" value="0.49785745248796986"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_9">
+            <entry key="attributeName" type="xstring" value="Diarrhea"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.36430405983868763"/>
+                    <entry key="sd" type="xdouble" value="0.48124530897835477"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.364247675783013"/>
+                    <entry key="sd" type="xdouble" value="0.48122942330378127"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.3654765124876041"/>
+                    <entry key="sd" type="xdouble" value="0.4815743829939721"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.36355039178600407"/>
+                    <entry key="sd" type="xdouble" value="0.4810321451437881"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.361758857556036"/>
+                    <entry key="sd" type="xdouble" value="0.4805203650949892"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.36452870781229085"/>
+                    <entry key="sd" type="xdouble" value="0.48130854149750174"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.3622934626436785"/>
+                    <entry key="sd" type="xdouble" value="0.4806737807074282"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.36071072432236584"/>
+                    <entry key="sd" type="xdouble" value="0.48021760739108776"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.36367332188996465"/>
+                    <entry key="sd" type="xdouble" value="0.4810670333771953"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.36458616010854944"/>
+                    <entry key="sd" type="xdouble" value="0.48132480737185157"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_10">
+            <entry key="attributeName" type="xstring" value="None_Experiencing"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.0886766097418101"/>
+                    <entry key="sd" type="xdouble" value="0.28428279963285163"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.09165989710262702"/>
+                    <entry key="sd" type="xdouble" value="0.2885517596908681"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.09088450094671362"/>
+                    <entry key="sd" type="xdouble" value="0.2874512714307572"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.09051607673601732"/>
+                    <entry key="sd" type="xdouble" value="0.28692616470587323"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.09124186550976138"/>
+                    <entry key="sd" type="xdouble" value="0.28795925892516794"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.08896956658150673"/>
+                    <entry key="sd" type="xdouble" value="0.28470619220939297"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.09083153735632153"/>
+                    <entry key="sd" type="xdouble" value="0.28737584656914406"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.09060828574018641"/>
+                    <entry key="sd" type="xdouble" value="0.2870577630410353"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.08984551449995423"/>
+                    <entry key="sd" type="xdouble" value="0.2859667672806746"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.09154228855721383"/>
+                    <entry key="sd" type="xdouble" value="0.28838526215985616"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_11">
+            <entry key="attributeName" type="xstring" value="Age_0-9"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.20213580858829386"/>
+                    <entry key="sd" type="xdouble" value="0.4016020303979999"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.19907031320516053"/>
+                    <entry key="sd" type="xdouble" value="0.39931005445057954"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.20192047606167313"/>
+                    <entry key="sd" type="xdouble" value="0.40144222818789593"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.20179230838512066"/>
+                    <entry key="sd" type="xdouble" value="0.40134701510194937"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.1998373101952295"/>
+                    <entry key="sd" type="xdouble" value="0.3998869668058853"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.20025996145399105"/>
+                    <entry key="sd" type="xdouble" value="0.40020380801867206"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.19993714080459873"/>
+                    <entry key="sd" type="xdouble" value="0.39996182701407434"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.2019309219472398"/>
+                    <entry key="sd" type="xdouble" value="0.4014500338440755"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.20132803324600201"/>
+                    <entry key="sd" type="xdouble" value="0.40100164576827735"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.19972862957937662"/>
+                    <entry key="sd" type="xdouble" value="0.39980536966094854"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_12">
+            <entry key="attributeName" type="xstring" value="Age_10-19"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.19817059433154655"/>
+                    <entry key="sd" type="xdouble" value="0.3986303677181847"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.2009657911363849"/>
+                    <entry key="sd" type="xdouble" value="0.40073156755431655"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.20115408890091005"/>
+                    <entry key="sd" type="xdouble" value="0.4008720069528911"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.1995406646852207"/>
+                    <entry key="sd" type="xdouble" value="0.39966408518323615"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.19983731019522824"/>
+                    <entry key="sd" type="xdouble" value="0.3998869668058838"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.19922907982609678"/>
+                    <entry key="sd" type="xdouble" value="0.3994295989158175"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.20061063218390832"/>
+                    <entry key="sd" type="xdouble" value="0.4004662371580288"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.19961925482730683"/>
+                    <entry key="sd" type="xdouble" value="0.3997232169707193"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.19915981570150837"/>
+                    <entry key="sd" type="xdouble" value="0.3993775011506707"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.20045228403437476"/>
+                    <entry key="sd" type="xdouble" value="0.4003478674810106"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_13">
+            <entry key="attributeName" type="xstring" value="Age_20-24"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.19974766818366133"/>
+                    <entry key="sd" type="xdouble" value="0.3998196346092582"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.1974004874086109"/>
+                    <entry key="sd" type="xdouble" value="0.3980460846123633"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.2006581913262983"/>
+                    <entry key="sd" type="xdouble" value="0.40050182614495194"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.19800954696928869"/>
+                    <entry key="sd" type="xdouble" value="0.398508366160981"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.20083152566883697"/>
+                    <entry key="sd" type="xdouble" value="0.4006313485833276"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.20088745461879767"/>
+                    <entry key="sd" type="xdouble" value="0.4006730346544099"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.19867995689655046"/>
+                    <entry key="sd" type="xdouble" value="0.3990155137502882"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.198939352733207"/>
+                    <entry key="sd" type="xdouble" value="0.39921136054387035"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.19852741891769796"/>
+                    <entry key="sd" type="xdouble" value="0.39890032660197394"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.20018091361374912"/>
+                    <entry key="sd" type="xdouble" value="0.4001446703613312"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_14">
+            <entry key="attributeName" type="xstring" value="Age_25-59"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.2013247420357771"/>
+                    <entry key="sd" type="xdouble" value="0.4009991718482794"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.20078526942864883"/>
+                    <entry key="sd" type="xdouble" value="0.400596789103675"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.20034262014245754"/>
+                    <entry key="sd" type="xdouble" value="0.40026575839106965"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.2017923083851212"/>
+                    <entry key="sd" type="xdouble" value="0.40134701510194914"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.19843637020968932"/>
+                    <entry key="sd" type="xdouble" value="0.39883150033852544"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.20070817085742493"/>
+                    <entry key="sd" type="xdouble" value="0.40053912630764643"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.20249640804597743"/>
+                    <entry key="sd" type="xdouble" value="0.4018692125314296"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.20224820959115236"/>
+                    <entry key="sd" type="xdouble" value="0.4016854302090417"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.20141837564368956"/>
+                    <entry key="sd" type="xdouble" value="0.4010689213436285"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.1994120307553143"/>
+                    <entry key="sd" type="xdouble" value="0.3995673831096757"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_15">
+            <entry key="attributeName" type="xstring" value="Age_60+"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.19862118686072147"/>
+                    <entry key="sd" type="xdouble" value="0.3989711561401082"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.20177813882119322"/>
+                    <entry key="sd" type="xdouble" value="0.40133650558804995"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.19592462356865933"/>
+                    <entry key="sd" type="xdouble" value="0.3969197246805977"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.19886517157524974"/>
+                    <entry key="sd" type="xdouble" value="0.39915534566355726"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.20105748373101956"/>
+                    <entry key="sd" type="xdouble" value="0.40079998949093554"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.1989153332436918"/>
+                    <entry key="sd" type="xdouble" value="0.39919314359420816"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.19827586206896505"/>
+                    <entry key="sd" type="xdouble" value="0.39871002274478334"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.1972622609010971"/>
+                    <entry key="sd" type="xdouble" value="0.39794099957672124"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.1995663564911011"/>
+                    <entry key="sd" type="xdouble" value="0.3996834269823099"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.20022614201718672"/>
+                    <entry key="sd" type="xdouble" value="0.4001785564929131"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_16">
+            <entry key="attributeName" type="xstring" value="Gender_Female"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.3333483530843039"/>
+                    <entry key="sd" type="xdouble" value="0.4714204518520619"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.33301742034479653"/>
+                    <entry key="sd" type="xdouble" value="0.4713033447483074"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.33500135244793305"/>
+                    <entry key="sd" type="xdouble" value="0.47200157820902844"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.33247770872737065"/>
+                    <entry key="sd" type="xdouble" value="0.47111174556095164"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.3366775126536515"/>
+                    <entry key="sd" type="xdouble" value="0.47258423379810266"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.33378154273676686"/>
+                    <entry key="sd" type="xdouble" value="0.4715733154114296"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.3336027298850567"/>
+                    <entry key="sd" type="xdouble" value="0.4715102656625921"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.3331520261082414"/>
+                    <entry key="sd" type="xdouble" value="0.4713510623170796"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.33300207787514735"/>
+                    <entry key="sd" type="xdouble" value="0.47129791799954207"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.33446404341926533"/>
+                    <entry key="sd" type="xdouble" value="0.4718134327035448"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_17">
+            <entry key="attributeName" type="xstring" value="Gender_Male"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.331771279232188"/>
+                    <entry key="sd" type="xdouble" value="0.470859944733757"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.3327015073562605"/>
+                    <entry key="sd" type="xdouble" value="0.4711912926532326"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.33225137498872886"/>
+                    <entry key="sd" type="xdouble" value="0.4710312103024491"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.33369359632531476"/>
+                    <entry key="sd" type="xdouble" value="0.4715423557381615"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.3321583514099789"/>
+                    <entry key="sd" type="xdouble" value="0.4709980958241953"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.3327058401685263"/>
+                    <entry key="sd" type="xdouble" value="0.47119275816663386"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.3323904454023004"/>
+                    <entry key="sd" type="xdouble" value="0.47108067372093954"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.33537303961562825"/>
+                    <entry key="sd" type="xdouble" value="0.4721314092764866"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.3327310506820837"/>
+                    <entry key="sd" type="xdouble" value="0.47120179117477246"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.3329715061058342"/>
+                    <entry key="sd" type="xdouble" value="0.4712870971894327"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_18">
+            <entry key="attributeName" type="xstring" value="Gender_Transgender"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.33488036768350277"/>
+                    <entry key="sd" type="xdouble" value="0.4719592607116184"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.33428107229894477"/>
+                    <entry key="sd" type="xdouble" value="0.47174917133515115"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.33274727256333986"/>
+                    <entry key="sd" type="xdouble" value="0.47120752851237246"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.33382869494731304"/>
+                    <entry key="sd" type="xdouble" value="0.4715899835219511"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.3311641359363694"/>
+                    <entry key="sd" type="xdouble" value="0.47064260447780293"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.33351261709470625"/>
+                    <entry key="sd" type="xdouble" value="0.47147843499569614"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.334006824712644"/>
+                    <entry key="sd" type="xdouble" value="0.4716526835670207"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.3314749342761315"/>
+                    <entry key="sd" type="xdouble" value="0.4707540197031851"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.33426687144276845"/>
+                    <entry key="sd" type="xdouble" value="0.47174419192384565"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.33256445047489674"/>
+                    <entry key="sd" type="xdouble" value="0.471142628454593"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_19">
+            <entry key="attributeName" type="xstring" value="Severity_Mild"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.25188122380930866"/>
+                    <entry key="sd" type="xdouble" value="0.4341031722044526"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.25137647802148055"/>
+                    <entry key="sd" type="xdouble" value="0.4338142893363105"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.251420070327292"/>
+                    <entry key="sd" type="xdouble" value="0.4338392601697193"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.25141853553093557"/>
+                    <entry key="sd" type="xdouble" value="0.43383837015383053"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.249728850325378"/>
+                    <entry key="sd" type="xdouble" value="0.4328658213816109"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.2503697727578297"/>
+                    <entry key="sd" type="xdouble" value="0.43323568900894055"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.2487877155172407"/>
+                    <entry key="sd" type="xdouble" value="0.4323202283753959"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.2470764209953766"/>
+                    <entry key="sd" type="xdouble" value="0.4313213369359511"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.24961604480983005"/>
+                    <entry key="sd" type="xdouble" value="0.4328005733438905"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.2502939846223427"/>
+                    <entry key="sd" type="xdouble" value="0.43319209738642045"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_20">
+            <entry key="attributeName" type="xstring" value="Severity_Moderate"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.24818636507006678"/>
+                    <entry key="sd" type="xdouble" value="0.4319702550447485"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.2514216084484168"/>
+                    <entry key="sd" type="xdouble" value="0.43384015210641913"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.25245694707420263"/>
+                    <entry key="sd" type="xdouble" value="0.4344317498074033"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.2511033054129515"/>
+                    <entry key="sd" type="xdouble" value="0.43365758872246307"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.24905097613882834"/>
+                    <entry key="sd" type="xdouble" value="0.4324731665060506"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.24777015821791887"/>
+                    <entry key="sd" type="xdouble" value="0.43172729936926546"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.25058369252873564"/>
+                    <entry key="sd" type="xdouble" value="0.43335890169312286"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.2514277943976074"/>
+                    <entry key="sd" type="xdouble" value="0.4338437391862614"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.251106694371669"/>
+                    <entry key="sd" type="xdouble" value="0.43365956387118154"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.2521031207598366"/>
+                    <entry key="sd" type="xdouble" value="0.43422996825954996"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_21">
+            <entry key="attributeName" type="xstring" value="Severity_None"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.250033794439688"/>
+                    <entry key="sd" type="xdouble" value="0.4330419677465066"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.2477209134398413"/>
+                    <entry key="sd" type="xdouble" value="0.43169859063530175"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.24889550085655118"/>
+                    <entry key="sd" type="xdouble" value="0.43238288441860656"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.24835630009907272"/>
+                    <entry key="sd" type="xdouble" value="0.43206927131040174"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.25009038322487215"/>
+                    <entry key="sd" type="xdouble" value="0.43307465787735855"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.24974227959302644"/>
+                    <entry key="sd" type="xdouble" value="0.43287350565821886"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.25026939655172464"/>
+                    <entry key="sd" type="xdouble" value="0.43317785119567154"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.25020397062822974"/>
+                    <entry key="sd" type="xdouble" value="0.433140216895759"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.24957087361098615"/>
+                    <entry key="sd" type="xdouble" value="0.4327744365574092"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.24821347806422417"/>
+                    <entry key="sd" type="xdouble" value="0.4319860964588371"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_22">
+            <entry key="attributeName" type="xstring" value="Severity_Severe"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.24989861668093563"/>
+                    <entry key="sd" type="xdouble" value="0.43296390700360327"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.24948100009026117"/>
+                    <entry key="sd" type="xdouble" value="0.4327224067426528"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.24722748174195291"/>
+                    <entry key="sd" type="xdouble" value="0.43140983339510336"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.24912185895703912"/>
+                    <entry key="sd" type="xdouble" value="0.43251425708609437"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.2511297903109185"/>
+                    <entry key="sd" type="xdouble" value="0.4336728236949851"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.25211778943122337"/>
+                    <entry key="sd" type="xdouble" value="0.43423825401303767"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.25035919540229684"/>
+                    <entry key="sd" type="xdouble" value="0.43322961089757633"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.25129181397878925"/>
+                    <entry key="sd" type="xdouble" value="0.43376579691123485"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.24970638720751662"/>
+                    <entry key="sd" type="xdouble" value="0.43285282803980224"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.24938941655359573"/>
+                    <entry key="sd" type="xdouble" value="0.43266939150871586"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_23">
+            <entry key="attributeName" type="xstring" value="Contact_Dont-Know"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.33186139773802503"/>
+                    <entry key="sd" type="xdouble" value="0.47089213397675317"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.33513855041068913"/>
+                    <entry key="sd" type="xdouble" value="0.47204953012008644"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.33590298440176697"/>
+                    <entry key="sd" type="xdouble" value="0.4723158121161466"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.33576510852922675"/>
+                    <entry key="sd" type="xdouble" value="0.47226787358256694"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.3329266088214042"/>
+                    <entry key="sd" type="xdouble" value="0.47127117338098423"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.32907534400071725"/>
+                    <entry key="sd" type="xdouble" value="0.4698879208872348"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.33333333333333004"/>
+                    <entry key="sd" type="xdouble" value="0.47141510404344966"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.33070437856948526"/>
+                    <entry key="sd" type="xdouble" value="0.47047744431466504"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.3334989610624248"/>
+                    <entry key="sd" type="xdouble" value="0.4714736949428753"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.33455450022614275"/>
+                    <entry key="sd" type="xdouble" value="0.4718451612121897"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_24">
+            <entry key="attributeName" type="xstring" value="Contact_No"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.333618708601811"/>
+                    <entry key="sd" type="xdouble" value="0.47151594222675003"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.33175376839064996"/>
+                    <entry key="sd" type="xdouble" value="0.4708537045726877"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.33162023262104445"/>
+                    <entry key="sd" type="xdouble" value="0.4708059543435175"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.3309465910114382"/>
+                    <entry key="sd" type="xdouble" value="0.4705644659129197"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.33107375271149553"/>
+                    <entry key="sd" type="xdouble" value="0.4706101696108072"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.3340056474384816"/>
+                    <entry key="sd" type="xdouble" value="0.4716522507079427"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.3342313218390804"/>
+                    <entry key="sd" type="xdouble" value="0.47173163646608884"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.33555434684072155"/>
+                    <entry key="sd" type="xdouble" value="0.47219459290877663"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.3352606378173287"/>
+                    <entry key="sd" type="xdouble" value="0.4720921625046848"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.33229308005427516"/>
+                    <entry key="sd" type="xdouble" value="0.4710460959190576"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_25">
+            <entry key="attributeName" type="xstring" value="Contact_Yes"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="10"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Other-EUR"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22193"/>
+                    <entry key="mean" type="xdouble" value="0.3345198936601622"/>
+                    <entry key="sd" type="xdouble" value="0.4718329850524209"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Republic of Korean"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22158"/>
+                    <entry key="mean" type="xdouble" value="0.33310768119866163"/>
+                    <entry key="sd" type="xdouble" value="0.4713353158468681"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Iran"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22182"/>
+                    <entry key="mean" type="xdouble" value="0.3324767829771885"/>
+                    <entry key="sd" type="xdouble" value="0.4711114278359131"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="China"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22206"/>
+                    <entry key="mean" type="xdouble" value="0.3332883004593345"/>
+                    <entry key="sd" type="xdouble" value="0.47139921119594896"/>
+                </config>
+                <config key="classValueData_4">
+                    <entry key="classValue" type="xstring" value="UAE"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22128"/>
+                    <entry key="mean" type="xdouble" value="0.33599963846710074"/>
+                    <entry key="sd" type="xdouble" value="0.4723494091209193"/>
+                </config>
+                <config key="classValueData_5">
+                    <entry key="classValue" type="xstring" value="Italy"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22311"/>
+                    <entry key="mean" type="xdouble" value="0.336919008560799"/>
+                    <entry key="sd" type="xdouble" value="0.47266754054391974"/>
+                </config>
+                <config key="classValueData_6">
+                    <entry key="classValue" type="xstring" value="France"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22272"/>
+                    <entry key="mean" type="xdouble" value="0.33243534482758436"/>
+                    <entry key="sd" type="xdouble" value="0.47109664715267546"/>
+                </config>
+                <config key="classValueData_7">
+                    <entry key="classValue" type="xstring" value="Germany"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22062"/>
+                    <entry key="mean" type="xdouble" value="0.33374127458979314"/>
+                    <entry key="sd" type="xdouble" value="0.4715592385495839"/>
+                </config>
+                <config key="classValueData_8">
+                    <entry key="classValue" type="xstring" value="Spain"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22138"/>
+                    <entry key="mean" type="xdouble" value="0.33124040112024505"/>
+                    <entry key="sd" type="xdouble" value="0.47066995290847424"/>
+                </config>
+                <config key="classValueData_9">
+                    <entry key="classValue" type="xstring" value="Other"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="22110"/>
+                    <entry key="mean" type="xdouble" value="0.3331524197195823"/>
+                    <entry key="sd" type="xdouble" value="0.47135117846082497"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_26">
+            <entry key="attributeName" type="xstring" value="Country"/>
+            <entry key="type" type="xstring" value="ClassModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="totalNoOfRecords" type="xlong" value="221760"/>
+                <entry key="maxNoOfClassValues" type="xlong" value="20"/>
+                <config key="classValues">
+                    <entry key="array-size" type="xint" value="10"/>
+                    <entry key="0" type="xstring" value="China"/>
+                    <entry key="1" type="xstring" value="Italy"/>
+                    <entry key="2" type="xstring" value="Iran"/>
+                    <entry key="3" type="xstring" value="Republic of Korean"/>
+                    <entry key="4" type="xstring" value="France"/>
+                    <entry key="5" type="xstring" value="Spain"/>
+                    <entry key="6" type="xstring" value="Germany"/>
+                    <entry key="7" type="xstring" value="UAE"/>
+                    <entry key="8" type="xstring" value="Other-EUR"/>
+                    <entry key="9" type="xstring" value="Other"/>
+                </config>
+                <config key="classRecordCounter">
+                    <entry key="array-size" type="xint" value="10"/>
+                    <entry key="0" type="xlong" value="22206"/>
+                    <entry key="1" type="xlong" value="22311"/>
+                    <entry key="2" type="xlong" value="22182"/>
+                    <entry key="3" type="xlong" value="22158"/>
+                    <entry key="4" type="xlong" value="22272"/>
+                    <entry key="5" type="xlong" value="22138"/>
+                    <entry key="6" type="xlong" value="22062"/>
+                    <entry key="7" type="xlong" value="22128"/>
+                    <entry key="8" type="xlong" value="22193"/>
+                    <entry key="9" type="xlong" value="22110"/>
+                </config>
+            </config>
+        </config>
+    </config>
+</config>
